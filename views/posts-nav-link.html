@@ -1,0 +1,8 @@
+<ul class="no-bullet nav-pagination">
+  <li ng-if="currentPage>1" class="prev">
+    <a class="button expand" href="{{postsNavLink.prevLink}}" title="">{{postsNavLink.prevLabel}}</a>
+  </li>
+  <li ng-if="currentPage<totalPages" class="next">
+    <a class="button expand" href="{{postsNavLink.nextLink}}" title="">{{postsNavLink.nextLabel}}</a>
+  </li>
+</ul>

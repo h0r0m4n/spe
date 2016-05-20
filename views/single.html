@@ -1,0 +1,11 @@
+<article class="article">
+  <header class="article-header">
+    <div class="article-header-content">
+      <h1 ng-bind-html="post.title"></h1>
+      <time datetime="{{post.date}}">{{post.date | date}}</time>
+    </div>
+    <img ng-src="{{post.featured_image.attachment_meta.sizes.xxl.url}}" alt="">
+    <span class="gradient"></span>
+  </header>
+  <div ng-bind-html="post.content" class="article-body-content"></div>
+</article>

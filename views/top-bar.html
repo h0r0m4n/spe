@@ -1,0 +1,17 @@
+<div class="fixed" ng-controller="TopBarCtrl">
+  <top-bar>
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="/" ng-bind-html="site.name"></a></h1>
+      </li>
+      <li toggle-top-bar class="menu-icon"><a href="#">Menu</a></li>
+    </ul>
+    <top-bar-section>
+      <ul class="right">
+        <li ng-repeat="page in pages">
+          <a href="{{page.slug}}" ng-bind-html="page.title"></a>
+        </li>
+      </ul>
+    </top-bar-section>
+  </top-bar>
+</div>
