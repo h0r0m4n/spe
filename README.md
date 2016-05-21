@@ -1,4 +1,4 @@
-# AngularJS WordPress
+# SPE
 
 A WordPress theme build on AngularJS
 
