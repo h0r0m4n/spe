@@ -16,3 +16,11 @@ A WordPress theme build on AngularJS
 - Foundation
 - HTML5
 - CSS3, Sass
+
+## License
+
+© Roman Horokhovatskyy
+
+## Disclaimer
+
+Certain artwork, photography, and logos used on this project are copyrighted intellectual property. In addition, client logos, signage, and names may be trademarked. These materials may not be reproduced elsewhere, except by their respective copyright and trademark holders.
