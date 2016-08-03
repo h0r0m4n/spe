@@ -1,13 +1,13 @@
 # SPE
 
-A WordPress theme build on AngularJS
+A WordPress theme build on AngularJS *Year 2015*
 
 ![Angular WordPress Cover](cover.png)
 
 ## Requirements
 
 - [CodeKit](https://incident57.com/codekit/)
-- [WP REST API](http://wp-api.org/)
+- [WP REST API v1.*](http://wp-api.org/)
 
 ## Technologies
 
